@@ -18,11 +18,11 @@ make sure your ~/.*shrc have those variable:
 
 ```bash
 ➜  echo $GOPATH
-/Users/xesina/go
+/Users/allpyjs/go
 ➜  echo $GOROOT
 /usr/local/go/
 ➜  echo $PATH
-...:/usr/local/go/bin:/Users/xesina/test//bin:/usr/local/go/bin
+...:/usr/local/go/bin:/Users/allpyjs/test//bin:/usr/local/go/bin
 ```
 
 For more info and detailed instructions please check this guide: [Setting GOPATH](https://github.com/golang/go/wiki/SettingGOPATH)
