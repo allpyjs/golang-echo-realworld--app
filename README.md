@@ -4,7 +4,49 @@
 
 
 This codebase was created to demonstrate a fully fledged fullstack application built with **Golang/Echo** including CRUD operations, authentication, routing, pagination, and more.
+## Directory Structure
 
+```bash
+├── main.go
+├── article
+│   └── article.go
+├── db
+│   └── db.go
+├── handler
+│   ├── article.go
+│   ├── article_test.go
+│   ├── handler.go
+│   ├── handler_test.go
+│   ├── request.go
+│   ├── response.go
+│   ├── routes.go
+│   ├── user.go
+│   └── user_test.go
+├── model
+│   ├── article.go
+│   └── user.go
+├── router
+│   ├── middleware
+│   │   └── jwt.go
+│   ├── router.go
+│   └── validator.go
+├── store
+│   ├── article.go
+│   └── user.go
+├── user
+│   └── user.go
+└── utils
+    ├── errors.go
+    ├── jwt.go
+    └── utils.go
+
+9 directories, 33 files
+```
+
+## Requirements
+
+- Golang v1.11+: [Installation Guide](https://golang.org/doc/install)
+- `dep`: [Installation Guide](https://golang.github.io/dep/docs/installation.html)
 ## Getting started
 
 ### Install Golang (go1.11+)
